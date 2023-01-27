@@ -11,10 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Michael Schmick
+    text: Is alive and well. He enjoys a simple life with his lovely wife and their two sweet dogs. Thank you for your interest
+#    button: Tell Me More
+#    buttonlink: "#services"
 
  # services:
  #   title: "Services"
