@@ -7,8 +7,8 @@
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
- English (default)
- -----------------
+# English (default)
+# -----------------
 # en: &DEFAULT_EN
   header:
  #   title: Welcome to our Studio!
@@ -160,22 +160,22 @@
 #        icon: "fab fa-github"
 #      - url: https://instagram.com
 #        icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+# en-US:
+#  <<: *DEFAULT_EN
+# en-CA:
+#  <<: *DEFAULT_EN
+# en-GB:
+ # <<: *DEFAULT_EN
+# en-AU:
+#  <<: *DEFAULT_EN
 
- Spanish
- -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Michael Schmick
-    text: Está vivo y bien. Disfruta de una vida sencilla con su encantadora esposa y sus dos perros dulces. Gracias por su interés
+# Spanish
+# -------
+# es: &DEFAULT_ES
+#  header:
+#    title: ¡Bienvenido a nuestro Estudio!
+#    text: Michael Schmick
+#    text: Está vivo y bien. Disfruta de una vida sencilla con su encantadora esposa y sus dos perros dulces. Gracias por su interés
 #    button: Ver más
 #    buttonlink: "#servicios"
 
@@ -320,7 +320,7 @@ es: &DEFAULT_ES
 #        icon: "fab fa-github"
 #      - url: https://instagram.com
 #        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+# es-ES:
+#  <<: *DEFAULT_ES
+# es-CO:
+ # <<: *DEFAULT_ES
