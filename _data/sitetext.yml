@@ -157,14 +157,14 @@ en: &DEFAULT_EN
 #        icon: "fab fa-github"
 #      - url: https://instagram.com
 #        icon: "fab fa-instagram"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+# en-US:
+ # <<: *DEFAULT_EN
+# en-CA:
+ # <<: *DEFAULT_EN
+# en-GB:
+ # <<: *DEFAULT_EN
+# en-AU:
+ # <<: *DEFAULT_EN
 
 # Spanish
 # -------
