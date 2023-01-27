@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Michael Schmick
-    text: Is alive and well. He enjoys a simple life with his lovely wife and their two sweet dogs. Thank you for your interest
+    # text: Is alive and well. He enjoys a simple life with his lovely wife and their two sweet dogs. Thank you for your interest
 #    button: Tell Me More
 #    buttonlink: "#services"
 
