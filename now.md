@@ -6,11 +6,16 @@ permalink: /now/
 
 # Now
 
-### Priortizing
+### Prioritizing
+If it takes me a while to get back to you, I’m probably doing one of two things. We all have priorities—these are mine:
 - Hanging out with my lovely wife and our two sweet (old) dogs
 - Feeding the crows when they stop by.
+<BR>  
 
-If it takes me a while to get back to you; I'm probably doing one of those two things. We all have priorities. These are mine.
+
+___
+  
+
 
 
 ### Reading
@@ -46,7 +51,8 @@ If it takes me a while to get back to you; I'm probably doing one of those two t
 
 
 ### Work
-- Still trading time for money
+- Trading time for money
+<BR><BR><BR>
 
 
 
@@ -56,10 +62,12 @@ If it takes me a while to get back to you; I'm probably doing one of those two t
 
 
 
-
+  
+    
 
 
 
 
 
 ###### "Now Page" inspired by Derek Sivers: [https://sive.rs/now](https://sive.rs/now)
+<span style="font-size: 0.8em; color: gray;">Last updated: {{ site.time | date: "%m/%d/%Y" }}</span>
