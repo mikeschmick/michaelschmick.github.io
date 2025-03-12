@@ -21,6 +21,8 @@ ___
 ### Reading
 - [Everyone In My Family Has Killed Someone](https://www.amazon.com/Everyone-Family-Has-Killed-Someone/dp/0063279037/ref=sr_1_1?sr=8-1)
 
+<div class="half-rule"></div>
+
 ### Watching
 
 - Someone Die (Murder Mystery Mondays)

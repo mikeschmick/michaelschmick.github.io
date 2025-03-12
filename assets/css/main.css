@@ -8601,3 +8601,9 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+			.half-rule {
+				width: 50%;
+				height: 2px;
+				background-color: black;
+				margin: 20px auto;
+			}
