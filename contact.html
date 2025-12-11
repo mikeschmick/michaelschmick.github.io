@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Schmick - Secret Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-weight: 300;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.1em;
+        }
+
+        .contact-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #333;
+            color: #f5f5f5;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .contact-link:hover {
+            background-color: #555;
+        }
+
+        .note {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Michael Schmick</h1>
+    
+    <p>Well, you found the contact page. Look at you.</p>
+    
+    <p>If you're here from the Home Assistant podcast and want to nerd out, please do! If you've somehow stumbled upon this on your own, I suppose you've earned the right to say "hey".</p>
+    
+    <p>Feel free to reach out. I can't promise I'll respond quickly (or at all), but I do read everything (except for the ones I don't).</p>
+    
+    <a href="#" class="contact-link" id="contactBtn">Reveal Contact</a>
+    
+    <p class="note">Please don't share this page. Let's keep it our little secret.</p>
+
+    <script>
+        const btn = document.getElementById('contactBtn');
+        const parts = ['hey', 'michaelschmick', 'com'];
+        const email = parts[0] + '@' + parts[1] + '.' + parts[2];
+        
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.location.href = 'mailto:' + email;
+        });
+    </script>
+</body>
+</html>
